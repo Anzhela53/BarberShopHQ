@@ -1,1 +1,9 @@
 <h2>list of our barbers</h2>
+
+<ul>
+    <% @barbers.each do |barber| %>
+        <li>
+            <%= barber.name %>
+        </li>
+    <% end %>
+</ul>
