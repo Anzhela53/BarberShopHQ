@@ -6,6 +6,7 @@ gem "activerecord"
 gem "sinatra-activerecord"
 gem "sinatra-contrib"
 gem "rake"
+gem "puma"
 
 group :development do
 	gem "tux"
