@@ -4,17 +4,17 @@
 <form action ="/visit" method ="POST" role="form">
   <div class="form-group">
     <label for="exampleInputEmail1">Your name</label>
-    <input name="client[name]" type="text" class="form-control" placeholder="You`re name" value="<%=@username%>">
+    <input name="client[name]" type="text" class="form-control" placeholder="You`re name" value="<%= @c.name %>">
   </div>
 
   <div class="form-group">
     <label for="exampleInputEmail1">Phone</label>
-    <input name="client[phone]" type="text" class="form-control " placeholder="You`re phone" value="<%=@phone%>">
+    <input name="client[phone]" type="text" class="form-control " placeholder="You`re phone" value="<%= @c.phone%>">
   </div>
 
   <div class="form-group">
     <label for="exampleInputEmail1"> When will you arrive?</label>
-    <input id ="datetimepicker" name="client[datestamp]" type="text" class="form-control" placeholder="Date and time" value="<%=@datetime%>">
+    <input id ="datetimepicker" name="client[datestamp]" type="text" class="form-control" placeholder="Date and time" value="<%= @c.datestamp%>">
   </div>
 
   </div>
